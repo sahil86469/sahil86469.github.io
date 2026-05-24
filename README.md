@@ -22,3 +22,4 @@ Main replaceable image files:
 - `assets/borewell-cad.jpg`
 - `assets/swarm-webots.png`
 - `assets/sanitization-robot.jpg`
+up
