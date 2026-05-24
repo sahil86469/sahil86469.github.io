@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sahil Ahamed Shaik | Robotics Portfolio</title>
+  <meta name="description" content="Robotics portfolio of Sahil Ahamed Shaik, UNSW Robotics Master's student with experience in ROS 2, autonomous navigation, mobile manipulation, CAD, simulation and AI." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="navbar">
+      <a class="brand" href="#top">&lt;Sahil / Robotics&gt;</a>
+      <button class="menu-toggle" aria-label="Open navigation" onclick="document.body.classList.toggle('nav-open')">☰</button>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">UNSW Robotics Master’s Student</p>
+        <h1>Sahil Ahamed Shaik</h1>
+        <p class="hero-subtitle">Robotics, autonomous systems, ROS 2, navigation, manipulation and AI-powered robot design.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="docs/Sahil_Ahamed_Shaik_CV.pdf" target="_blank">Download CV</a>
+          <a class="btn secondary" href="docs/Sahil_Ahamed_Shaik_Portfolio.pdf" target="_blank">View Portfolio PDF</a>
+        </div>
+        <div class="stats-row">
+          <div><strong>5+</strong><span>Robotics Projects</span></div>
+          <div><strong>2</strong><span>Internships</span></div>
+          <div><strong>3</strong><span>Conferences</span></div>
+          <div><strong>1</strong><span>AIP Publication</span></div>
+        </div>
+      </div>
+      <div class="hero-image-card">
+        <img src="assets/profile.jpg" alt="Portrait of Sahil Ahamed Shaik" />
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">About</p>
+        <h2>Robotics engineer focused on real-world autonomous systems.</h2>
+      </div>
+      <div class="about-grid">
+        <p>
+          I am a robotics engineering student currently working on ROS 2 integration and control of the Omron MoMa mobile manipulator. My work focuses on converting robot data into ROS-compatible interfaces, sensor integration, SLAM, navigation and manipulation workflows.
+        </p>
+        <p>
+          I have hands-on experience across ROS 1/2, Nav2, SLAM Toolbox, TF2, RViz, ARCL, Webots, V-REP, SolidWorks, ANSYS, Python, C++ and TensorFlow-based AI models.
+        </p>
+      </div>
+    </section>
+
+    <section class="section education" id="education">
+      <div class="section-heading">
+        <p class="eyebrow">Education</p>
+        <h2>Academic background</h2>
+      </div>
+      <div class="timeline-grid">
+        <article class="timeline-card current">
+          <span class="tag">Current</span>
+          <h3>Master of Engineering Science — Robotics</h3>
+          <p class="institution">University of New South Wales, Sydney, Australia</p>
+          <p class="date">2024 – 2026</p>
+          <p>Focus areas: robotics, autonomous systems, ROS, navigation and manipulation.</p>
+        </article>
+        <article class="timeline-card">
+          <span class="tag">Undergraduate</span>
+          <h3>Bachelor of Technology — Mechatronics Engineering</h3>
+          <p class="institution">Hindustan Institute of Technology and Science, Chennai, India</p>
+          <p class="date">2020 – 2024</p>
+          <p>Foundation in mechanical design, electronics, control systems, CAD and robotics.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-heading split-heading">
+        <div>
+          <p class="eyebrow">Selected Projects</p>
+          <h2>Robotics, navigation, design and AI projects</h2>
+        </div>
+        <a class="text-link" href="docs/Sahil_Ahamed_Shaik_Portfolio.pptx" target="_blank">Download PPT portfolio →</a>
+      </div>
+
+      <div class="featured-project">
+        <div class="featured-media">
+          <img src="assets/moma-placeholder.svg" alt="Omron MoMa mobile manipulator placeholder" />
+        </div>
+        <div class="featured-content">
+          <p class="eyebrow">Current research project</p>
+          <h3>ROS 2 Integration and Control of Omron MoMa Mobile Manipulator</h3>
+          <p>Integrating the Omron LD-250 mobile base and TM12-S arm with ROS 2 for autonomous navigation and manipulation.</p>
+          <ul>
+            <li>Developed ARCL-based communication to publish odometry, laser scan and point cloud data.</li>
+            <li>Configuring SLAM, Nav2, TF frames, costmaps and localization for real-world navigation.</li>
+            <li>Working toward TMflow-based arm and gripper control for mobile manipulation tasks.</li>
+          </ul>
+          <div class="chips">
+            <span>ROS 2</span><span>ARCL</span><span>Nav2</span><span>SLAM Toolbox</span><span>TF2</span><span>RViz</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <img src="assets/ugv-gazebo.jpg" alt="UGV path planning simulation in Gazebo and RViz" />
+          <div>
+            <p class="project-number">Project 01</p>
+            <h3>UGV Autonomous Path Planning</h3>
+            <p>Move Base with DWA, custom A* path planning, SLAM-based mapping, obstacle detection and Gazebo/RViz validation.</p>
+            <div class="chips"><span>ROS</span><span>Gazebo</span><span>RViz</span><span>A*</span><span>SLAM</span></div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="assets/knee-cad.jpg" alt="Knee rehabilitation robot CAD model" />
+          <div>
+            <p class="project-number">Project 02</p>
+            <h3>Knee Rehabilitation Robot</h3>
+            <p>AI-augmented physiotherapy robot with 2-DOF arc motion, CAD design, FEA validation and CNN-based knee condition detection.</p>
+            <div class="chips"><span>SolidWorks</span><span>ANSYS</span><span>TensorFlow</span><span>CNN</span></div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="assets/borewell-cad.jpg" alt="Borewell rescue robot CAD design" />
+          <div>
+            <p class="project-number">Project 03</p>
+            <h3>Borewell Rescue Robot</h3>
+            <p>Soft-gripper rescue mechanism designed for safe extraction, rapid deployment and affordability using CAD and embedded systems.</p>
+            <div class="chips"><span>SolidWorks</span><span>Arduino</span><span>Sensors</span><span>Rescue Robotics</span></div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="assets/swarm-webots.png" alt="Swarm robot simulation in Webots" />
+          <div>
+            <p class="project-number">Project 04</p>
+            <h3>Homogeneous Swarm Robotics</h3>
+            <p>Leader-follower TurtleBot3 simulation in Webots with inter-robot communication through a centralized network.</p>
+            <div class="chips"><span>Webots</span><span>Python</span><span>MATLAB</span><span>Swarm Robotics</span></div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="assets/sanitization-robot.jpg" alt="Autonomous sanitization robot prototype" />
+          <div>
+            <p class="project-number">Project 05</p>
+            <h3>Autonomous Sanitizing Robot</h3>
+            <p>COVID-era prototype using ultrasonic obstacle avoidance, IR-triggered spraying and Tinkercad circuit validation.</p>
+            <div class="chips"><span>Arduino</span><span>Tinkercad</span><span>IR Sensor</span><span>Ultrasonic</span></div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="assets/robot-arm-vrep.png" alt="Robotic arm simulation in V-REP" />
+          <div>
+            <p class="project-number">Additional</p>
+            <h3>Robotic Arm Simulation</h3>
+            <p>Forward kinematics simulation in V-REP/CoppeliaSim and MoveIt-based manipulator motion planning experiments.</p>
+            <div class="chips"><span>V-REP</span><span>MoveIt</span><span>Kinematics</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">Technical Profile</p>
+        <h2>Skills and tools</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Robotics Software</h3>
+          <p>ROS 1/2, Nav2, SLAM Toolbox, TF2, RViz, URDF, ARCL, Webots, V-REP</p>
+        </div>
+        <div class="skill-card">
+          <h3>Programming</h3>
+          <p>C/C++, Python, MATLAB, Embedded C, Linux, Git/GitHub, VS Code</p>
+        </div>
+        <div class="skill-card">
+          <h3>AI & Vision</h3>
+          <p>TensorFlow, CNN, ANN, Deep Learning, OpenCV, OCR and image processing</p>
+        </div>
+        <div class="skill-card">
+          <h3>Design & Simulation</h3>
+          <p>SolidWorks, ANSYS, Fusion 360, Simulink, Gazebo and Unity AR/VR</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section experience-section">
+      <div class="section-heading">
+        <p class="eyebrow">Experience</p>
+        <h2>Internship experience</h2>
+      </div>
+      <div class="experience-grid">
+        <article>
+          <p class="date">Dec 2023 – May 2024</p>
+          <h3>ROS Intern — Edgeforce Solutions</h3>
+          <p>Worked on UGV systems, airport tugs and defense-related robotics. Developed URDF sensor integration, path-planning algorithms, CAD components and ROS-based system integration.</p>
+        </article>
+        <article>
+          <p class="date">Jun 2022 – Jul 2022</p>
+          <h3>Robotics Intern — Abhyaz Robotics</h3>
+          <p>Built foundations in ROS, CAD, AI/ML and embedded systems through TurtleBot teleoperation, Linux commands, AutoCAD and Tinkercad-based projects.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section recognition-section">
+      <div class="recognition-card">
+        <div>
+          <p class="eyebrow">Research & Recognition</p>
+          <h2>Publication, presentations and achievements</h2>
+          <p>Published a paper in AIP Conference Proceedings and presented work at RIACT 2022, RANE 2023 and AIIMS-3.0. Also completed training in SMC pneumatics, TensorFlow, ROS, AI/ML/Python and MATLAB Simulink Onramp.</p>
+        </div>
+        <div class="award-list">
+          <span>AIP Conference Proceedings</span>
+          <span>RIACT 2022</span>
+          <span>RANE 2023</span>
+          <span>AIIMS-3.0</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <p class="eyebrow">Contact</p>
+      <h2>Let’s connect</h2>
+      <p>Open to robotics internships, research collaborations and autonomous systems projects.</p>
+      <div class="contact-links">
+        <a href="mailto:sahil86469@gmail.com">sahil86469@gmail.com</a>
+        <a href="https://github.com/sahil86469" target="_blank">github.com/sahil86469</a>
+        <a href="https://www.linkedin.com/in/sahil-shaik-8bb309219" target="_blank">LinkedIn Profile</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Sahil Ahamed Shaik. Built for GitHub Pages.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
