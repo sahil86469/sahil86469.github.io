@@ -1,258 +1,46 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sahil Ahamed Shaik | Robotics Portfolio</title>
-  <meta name="description" content="Robotics portfolio of Sahil Ahamed Shaik, UNSW Robotics Master's student with experience in ROS 2, autonomous navigation, mobile manipulation, CAD, simulation and AI." />
-  <link rel="stylesheet" href="style.css" />
+<meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="#050b13" name="theme-color"/><meta content="Sahil Ahamed Shaik — robotics engineer working on ROS 2 mobile manipulation, autonomous navigation and perception." name="description"/>
+<title>Sahil Ahamed Shaik | Robotics &amp; AI Engineer</title>
+<link href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23050b13'/%3E%3Cpath d='M12 40h40M18 40V24l14-9 14 9v16M27 31h10' fill='none' stroke='%236fffd1' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='32' cy='31' r='3' fill='%236fffd1'/%3E%3C/svg%3E" rel="icon" type="image/svg+xml"/>
+<style>
+:root{color-scheme:dark;--bg:#050b13;--surface:#0b1722;--surface2:#102130;--line:#244356;--ink:#ecfafb;--soft:#a8c1cd;--accent:#6fffd1;--cyan:#6acaff;--amber:#ffd68a}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:82px}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif;overflow-x:hidden}button,a{font:inherit}a{color:inherit}button{cursor:pointer}a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var(--accent);outline-offset:4px}::selection{background:#2b826e;color:white}.shell{max-width:1280px;margin:auto;padding-inline:clamp(20px,4vw,56px)}.mono,.eyebrow,.stat-label,.tag,.section-no,.micro,nav,.project-index{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}.header{position:sticky;top:0;z-index:30;background:#07111de8;backdrop-filter:blur(18px);border-bottom:1px solid #294658}.header-inner{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:70px}.logo{font:700 16px/1.1 ui-monospace,monospace;text-decoration:none;letter-spacing:.08em;white-space:nowrap}.logo b{color:var(--accent)}.logo small{display:block;color:#7798a9;font-size:10px;letter-spacing:.2em;margin-top:5px}.nav{display:flex;align-items:center;gap:clamp(12px,2vw,32px)}.nav a{color:#acc5d0;text-decoration:none;font-size:12px;letter-spacing:.08em;text-transform:uppercase}.nav a:hover{color:var(--accent)}.nav .nav-contact{border:1px solid #4e807d;color:var(--accent);padding:8px 12px}.menu-toggle{display:none;border:1px solid var(--line);background:var(--surface);color:white;border-radius:4px;padding:6px 12px}.hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line);background:radial-gradient(circle at 73% 40%,#123a48 0,transparent 31%),linear-gradient(140deg,#0b1c2a,#050b13 72%)}.hero:before{content:"";position:absolute;inset:0;opacity:.32;background-image:linear-gradient(#2b5260 1px,transparent 1px),linear-gradient(90deg,#2b5260 1px,transparent 1px);background-size:56px 56px;mask-image:linear-gradient(to right,transparent 15%,black 85%)}.hero:after{content:"";position:absolute;width:560px;height:560px;right:-210px;top:-180px;border:1px solid #2d6770;border-radius:50%;box-shadow:0 0 0 90px #153c431c,0 0 0 180px #153c4312;pointer-events:none}.hero-grid{position:relative;z-index:1;display:grid;grid-template-columns:minmax(0,1.15fr) minmax(340px,.85fr);gap:4vw;align-items:center;min-height:690px;padding-block:72px}.eyebrow{display:flex;align-items:center;gap:10px;color:var(--accent);font-size:12px;letter-spacing:.17em;text-transform:uppercase;font-weight:700}.eyebrow:before{content:"";width:7px;height:7px;border-radius:50%;background:var(--accent);box-shadow:0 0 14px var(--accent)}h1,h2,h3,p{margin-top:0}h1{font-size:clamp(3.3rem,7.5vw,7.7rem);font-weight:760;letter-spacing:-.075em;line-height:.99;margin:29px 0 26px}h1 .outline{display:block;color:transparent;-webkit-text-stroke:1px #94cfdd}h1 .accent{color:var(--accent)}.hero-lead{font-size:clamp(1.08rem,1.8vw,1.3rem);max-width:660px;color:#c3d5dc;line-height:1.55}.hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:34px}.btn{display:inline-flex;align-items:center;gap:18px;justify-content:center;text-decoration:none;font-weight:750;font-size:14px;letter-spacing:.04em;border:1px solid var(--accent);background:var(--accent);color:#052018;padding:13px 18px;min-height:48px}.btn:hover{background:#a9ffe2;color:#052018}.btn.ghost{background:#0b1b29c9;color:var(--ink);border-color:#537180}.btn.ghost:hover{border-color:var(--accent);color:var(--accent)}.hero-meta{display:flex;flex-wrap:wrap;gap:10px 22px;color:#91aebc;margin-top:28px;font-size:13px}.hero-visual{position:relative;min-height:490px;display:grid;place-items:center}.orbit{position:absolute;width:min(100%,470px);aspect-ratio:1;border:1px solid #49768a;border-radius:50%;background:radial-gradient(circle at center,#1b536850 0,transparent 55%)}.orbit:before,.orbit:after{content:"";position:absolute;inset:11%;border:1px dashed #477d8b;border-radius:50%;animation:spin 40s linear infinite}.orbit:after{inset:25%;animation-direction:reverse;animation-duration:25s}.orbit .axis{position:absolute;left:50%;top:50%;width:115%;height:1px;background:#36718575;transform:translate(-50%,-50%)}.orbit .axis.y{transform:translate(-50%,-50%) rotate(90deg)}.portrait-frame{position:relative;width:min(62%,280px);aspect-ratio:4/5;clip-path:polygon(13% 0,100% 0,100% 87%,87% 100%,0 100%,0 13%);border:1px solid #6ba2ae;background:#122936;padding:7px;box-shadow:0 20px 70px #0008}.portrait-frame img{width:100%;height:100%;object-fit:cover;object-position:center top;clip-path:polygon(13% 0,100% 0,100% 87%,87% 100%,0 100%,0 13%);filter:saturate(.75) contrast(1.08)}.float-label{position:absolute;background:#081b27e8;border:1px solid #3c6877;padding:10px 13px;color:#d8eff2;font:11px/1.5 ui-monospace,monospace;letter-spacing:.04em;backdrop-filter:blur(8px)}.float-label strong{display:block;color:var(--accent);font-size:12px}.float-label.top{top:7%;right:0}.float-label.bottom{bottom:8%;left:0}.scan{position:absolute;inset:0;background:linear-gradient(transparent 48%,#6fffd120 50%,transparent 52%);animation:scan 7s ease-in-out infinite;pointer-events:none}.metrics{border-bottom:1px solid var(--line);background:#091724}.metric-grid{display:grid;grid-template-columns:repeat(4,1fr)}.metric{padding:21px 20px 20px;border-right:1px solid var(--line)}.metric:first-child{border-left:1px solid var(--line)}.metric strong{display:block;font-size:22px;line-height:1.2;letter-spacing:-.04em}.stat-label{display:block;font-size:11px;letter-spacing:.12em;color:#91abba;text-transform:uppercase;margin-top:5px}.section{padding-block:92px;border-bottom:1px solid var(--line)}.section-heading{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:34px}.section-no{color:var(--accent);font-size:12px;letter-spacing:.12em}.section h2{font-size:clamp(2.4rem,5vw,4.7rem);line-height:1.03;letter-spacing:-.06em;margin:10px 0 0}.section-summary{max-width:450px;color:var(--soft);font-size:17px;margin:0}.feature{display:grid;grid-template-columns:1.06fr .94fr;min-height:510px;border:1px solid #345c69;background:linear-gradient(140deg,#102b3b,#0b1825);overflow:hidden}.feature-copy{padding:clamp(26px,4vw,52px);display:flex;flex-direction:column}.project-index{color:var(--accent);font-size:12px;letter-spacing:.12em}.feature h3{font-size:clamp(2rem,3vw,3.2rem);letter-spacing:-.05em;line-height:1.1;margin:19px 0}.feature p,.card p{color:var(--soft)}.feature .project-points{padding-left:20px;color:#c5d8df;margin-bottom:16px}.feature li{margin-bottom:7px}.feature-image{position:relative;overflow:hidden;background:#0c1f2c}.feature-image img{width:100%;height:100%;object-fit:cover;min-height:510px;filter:saturate(.8)}.image-overlay{position:absolute;inset:0;background:linear-gradient(90deg,#112b3b55,transparent),repeating-linear-gradient(0deg,transparent 0 39px,#8ac6d118 40px)}.image-caption{position:absolute;bottom:16px;left:16px;background:#061620d9;border:1px solid #497080;color:#cde4e9;padding:7px 12px;font:11px ui-monospace,monospace}.tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:auto;padding-top:15px}.tag{border:1px solid #3f6271;color:#bdd9df;padding:3px 9px;font-size:11px;letter-spacing:.02em}.filter-row{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:25px 0 18px}.filter-label{color:#92acb9;font:12px ui-monospace,monospace;margin-right:10px}.filter{border:1px solid #355465;background:transparent;color:#bfd5df;padding:7px 12px;font:12px ui-monospace,monospace}.filter:hover,.filter[aria-pressed=true]{background:var(--accent);border-color:var(--accent);color:#061d1b}.projects{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.card{background:var(--surface);border:1px solid var(--line);display:flex;flex-direction:column;min-height:360px;transition:transform .25s,border-color .25s,box-shadow .25s}.card:hover{transform:translateY(-4px);border-color:#5aa7a9;box-shadow:0 12px 35px #0005}.card[hidden]{display:none}.card img{width:100%;height:178px;object-fit:cover;filter:saturate(.8)}.card-body{padding:22px;display:flex;flex:1;flex-direction:column}.card h3{font-size:22px;line-height:1.18;letter-spacing:-.03em;margin:11px 0}.card p{font-size:15px;line-height:1.55}.card .tags{padding-top:10px}.detail{margin-top:18px;border-top:1px solid var(--line);padding-top:13px;color:#c9e3e7}.detail summary{cursor:pointer;color:var(--accent);font-size:13px;font-weight:700;list-style:none}.detail summary::-webkit-details-marker{display:none}.detail summary:after{content:" +"}.detail[open] summary:after{content:" −"}.detail p{margin:12px 0 0}.panel-grid{display:grid;grid-template-columns:1fr 1fr;gap:15px}.panel{border:1px solid var(--line);background:var(--surface);padding:clamp(24px,3vw,40px)}.panel h3{font-size:25px;letter-spacing:-.04em;margin:0 0 12px}.panel p{color:var(--soft)}.timeline{border-left:1px solid #477487;margin:25px 0 0;padding:0 0 0 22px}.timeline-item{position:relative;margin-bottom:30px}.timeline-item:before{content:"";position:absolute;left:-27px;top:8px;width:9px;height:9px;background:var(--accent);border-radius:50%;box-shadow:0 0 12px var(--accent)}.timeline-item time{font:12px ui-monospace,monospace;color:var(--accent)}.timeline-item h4{font-size:18px;margin:6px 0}.timeline-item p{margin:0}.skill-list{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:28px}.skill-item{border-top:1px solid #385b6c;padding-top:15px}.skill-item strong{color:var(--accent);font-size:14px}.skill-item p{font-size:14px;margin:4px 0}.experience{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.experience .panel{padding:28px}.experience time{color:var(--accent);font:12px ui-monospace,monospace}.experience h3{margin-top:12px;font-size:21px}.research{display:grid;grid-template-columns:1.15fr .85fr;gap:14px}.research .panel{min-height:250px}.research a{color:var(--accent);text-underline-offset:4px}.contact{background:radial-gradient(circle at 85% 35%,#174451,transparent 35%),#0c2130}.contact-layout{display:grid;grid-template-columns:1.2fr .8fr;gap:30px;align-items:end}.contact p{font-size:18px;max-width:590px;color:#c7dce2}.contact-links{display:grid;gap:10px}.contact-links a{display:flex;justify-content:space-between;gap:20px;border:1px solid #456b79;padding:16px 19px;text-decoration:none;color:var(--accent);font-weight:700}.contact-links a:hover{background:#153a43}.footer{padding:23px 0;color:#8eabb8;font:12px ui-monospace,monospace}.footer .shell{display:flex;justify-content:space-between;gap:20px}.reveal{opacity:0;transform:translateY(20px);transition:opacity .65s,transform .65s}.reveal.visible{opacity:1;transform:none}@keyframes spin{to{transform:rotate(360deg)}}@keyframes scan{0%,100%{transform:translateY(-44%)}50%{transform:translateY(44%)}}@media(max-width:1000px){.hero-grid{grid-template-columns:1fr .7fr;min-height:600px}.hero-visual{min-height:360px}.float-label{display:none}.projects{grid-template-columns:repeat(2,1fr)}.experience{grid-template-columns:1fr 1fr}}@media(max-width:760px){.header-inner{min-height:64px}.menu-toggle{display:block}.nav{display:none;position:absolute;top:64px;left:0;right:0;background:#091925;border-bottom:1px solid var(--line);padding:22px;flex-direction:column;align-items:stretch;gap:18px}.nav.open{display:flex}.nav a{font-size:14px}.hero-grid,.feature,.panel-grid,.research,.contact-layout{grid-template-columns:1fr}.hero-grid{padding-block:65px;gap:0}.hero-visual{min-height:310px}.orbit{width:300px}.portrait-frame{width:190px}.feature-image img{min-height:300px;height:300px}.metric-grid{grid-template-columns:repeat(2,1fr)}.metric:nth-child(3){border-left:1px solid var(--line)}.metric:nth-child(-n+2){border-bottom:1px solid var(--line)}.section{padding-block:68px}.section-heading{display:block}.section-summary{margin-top:15px}.experience{grid-template-columns:1fr}}@media(max-width:560px){h1{font-size:clamp(3.2rem,14vw,5rem)}.projects,.skill-list{grid-template-columns:1fr}.hero-visual{min-height:270px}.orbit{width:260px}.portrait-frame{width:165px}.metric{padding:15px 12px}.metric strong{font-size:19px}.stat-label{font-size:10px}.section h2{font-size:2.55rem}.footer .shell{display:block}.footer span{display:block;margin-top:6px}}@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
+.mission-section{background:#e9f0f2;color:#142d34;padding:48px 0 78px}.mission-intro{display:flex;align-items:end;justify-content:space-between;gap:20px;margin-bottom:24px}.mission-kicker{font:700 12px ui-monospace,monospace;letter-spacing:.16em;color:#0a806b}.mission-intro h1{font-size:clamp(2.5rem,5.6vw,5.8rem);line-height:1.02;letter-spacing:-.07em;margin:13px 0 18px}.mission-intro h1 em{font-style:normal;color:#008e75}.mission-intro p{color:#526a71;margin:0;font-size:17px;max-width:680px}.mission-cv{font:700 12px ui-monospace,monospace;color:#184d50;border:1px solid #93b2b5;padding:11px 14px;text-decoration:none;white-space:nowrap}.mission-cv:hover{background:#d5e6e5}.mission-frame{background:#203039;border:6px solid #203039;border-radius:12px;overflow:hidden;box-shadow:0 24px 65px #29454d44}.mission-bar{display:flex;justify-content:space-between;gap:15px;color:#b9d4d3;font:11px ui-monospace,monospace;letter-spacing:.07em;padding:8px 10px}.mission-bar i{display:inline-block;width:8px;height:8px;background:#6affc0;border-radius:50%;box-shadow:0 0 9px #6affc0;margin-right:8px}.mission-layout{display:grid;grid-template-columns:minmax(0,1fr) 265px;gap:10px;padding:0 8px 8px}.mission-map{border:3px solid #101d23;background:#f1f7f8;min-width:0}.mission-map svg{width:100%;height:100%;min-height:500px;display:block}.svg-label{fill:#31525a;font:700 12px ui-monospace,monospace;letter-spacing:.05em}.mission-map-footer{background:#142932;color:#a9c8c6;padding:8px 12px;display:flex;justify-content:space-between;gap:8px;font:10px ui-monospace,monospace}.mission-map-footer strong{color:#75ffca;margin-left:5px}.mission-console{background:#f6d900;border:6px solid #ebcb00;outline:2px solid #16262c;border-radius:10px;padding:11px;display:flex;flex-direction:column;gap:10px;color:#1c2c2d;min-height:500px}.console-title{display:flex;justify-content:space-between;gap:5px;font:700 11px ui-monospace,monospace}.console-title span:last-child{color:#0a8050}.console-screen{background:#073b2c;border:6px solid #1b302c;border-radius:4px;min-height:103px;color:#76ffb9;padding:10px;display:flex;flex-direction:column;font-family:ui-monospace,monospace}.console-screen small{font-size:10px}.console-screen strong{font-size:20px;line-height:1.2;margin:5px 0;letter-spacing:.04em}.console-screen span{font-size:11px;color:#c3f6d6}.console-sequence>div{font:700 10px ui-monospace,monospace;letter-spacing:.08em;margin:2px 0 7px}.console-sequence ol{margin:0;padding:0;list-style:none;display:grid;gap:5px}.console-sequence li{display:flex;align-items:center;gap:9px;background:#263437;color:#b9c8c9;border:1px solid #405052;padding:7px 8px;font:11px ui-monospace,monospace;min-height:34px}.console-sequence li b{font-size:10px;color:#789697}.console-sequence li.active{background:#0a5a49;color:#e8fff3;border-color:#39b88d;box-shadow:0 0 0 1px #46dca3}.console-sequence li.complete{background:#1c3837;color:#79e8b4}.console-sequence li.complete b{color:#79e8b4}.console-buttons{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-top:auto}.console-buttons button{border:1px solid #4f5a4f;background:#303b3c;color:white;padding:9px 6px;font:700 11px ui-monospace,monospace;min-height:36px}.console-buttons button:hover:not(:disabled){background:#0e6a55}.console-buttons button:disabled{opacity:.45;cursor:not-allowed}.console-buttons .mission-primary{grid-column:1/-1;background:#075e48;border-color:#075e48;min-height:42px}.console-note{font:10px/1.45 ui-monospace,monospace;color:#535536}.console-links{display:flex;justify-content:space-between;gap:5px;padding-top:5px;border-top:1px solid #9b8c22}.console-links a{color:#19383b;text-decoration:none;font:700 10px ui-monospace,monospace}.console-links a:hover{text-decoration:underline}.station.active{filter:drop-shadow(0 0 8px #2fd7a0)}@media(max-width:1050px){.mission-layout{grid-template-columns:1fr}.mission-map svg{min-height:0;aspect-ratio:960/510}.mission-console{min-height:auto;display:grid;grid-template-columns:1fr 1fr;gap:10px 18px}.console-title,.console-screen,.console-sequence{grid-column:1}.console-buttons,.console-note,.console-links{grid-column:2}.console-buttons{align-self:start;margin-top:0}.console-note{align-self:end}.console-links{align-self:end}.mission-map-footer{flex-wrap:wrap}}@media(max-width:650px){.mission-section{padding:28px 0 55px}.mission-intro{display:block}.mission-cv{display:inline-block;margin-top:18px}.mission-bar{font-size:9px;flex-wrap:wrap}.mission-layout{padding:0 3px 3px;gap:7px}.mission-console{display:flex;padding:10px}.console-links{margin-top:6px}.mission-map-footer{font-size:9px}.mission-intro h1{font-size:clamp(2.5rem,10vw,4rem)}}
+
+.world-stage{position:relative;aspect-ratio:960/510;min-height:470px;overflow:hidden;background:#cbd9dc}.world-stage #mission-svg{position:absolute;inset:0;width:100%;height:100%;min-height:0}.world-stage #mission-svg[hidden]{display:none}.world3d{position:absolute;inset:0;visibility:hidden;touch-action:none;cursor:grab}.world3d.ready{visibility:visible}.world3d:active{cursor:grabbing}.world3d canvas{display:block;width:100%;height:100%}.world-toolbar{display:none;position:absolute;z-index:2;top:10px;left:10px;right:10px;align-items:center;justify-content:space-between;gap:8px;pointer-events:none;color:#d7fff3;font:700 11px ui-monospace,monospace;text-shadow:0 1px 4px #123}.world-toolbar span{background:#17383bc9;padding:8px 11px}.world-toolbar button{pointer-events:auto;border:1px solid #61d9ba;background:#17383bdc;color:#dcfff5;padding:8px 10px;font:700 10px ui-monospace,monospace;cursor:pointer}.world3d.ready + .world-toolbar{display:flex}.world-toolbar button:hover{background:#0b715a}.mission-map{display:flex;flex-direction:column}.mission-map-footer{margin-top:auto}@media(max-width:650px){.world-stage{min-height:290px;aspect-ratio:1.1}.world-toolbar{font-size:9px}.world-toolbar span{max-width:65%}}
+.file-picker{position:absolute;z-index:4;inset:0 0 0 auto;width:min(390px,82%);background:#102a34f5;color:#e8fcf8;padding:clamp(15px,2.4vw,28px);overflow:auto;box-shadow:-15px 0 45px #0d2c3555;transform:translateX(104%);transition:transform .4s ease;visibility:hidden}.file-picker.open{transform:translateX(0);visibility:visible}.file-picker-header{display:flex;align-items:center;justify-content:space-between;color:#72e9be;font:700 11px ui-monospace,monospace;letter-spacing:.1em}.file-picker-header button{color:white;background:transparent;border:1px solid #5c898c;width:30px;height:30px;font-size:21px;line-height:1}.file-picker h2{font-size:clamp(1.55rem,2.4vw,2.4rem);line-height:1.08;letter-spacing:-.05em;margin:22px 0 12px}.file-picker p{font-size:14px;color:#b7d0d3;margin-bottom:20px}.file-choice-list{display:grid;gap:7px}.file-choice-list button{width:100%;display:flex;align-items:center;gap:11px;text-align:left;border:1px solid #41616b;background:#183947;color:#e7f9f8;min-height:58px;padding:9px;cursor:pointer}.file-choice-list button:hover,.file-choice-list button:focus-visible{background:#145d58;border-color:#69e8bc}.choice-icon{display:grid;place-items:center;flex:0 0 34px;height:34px;border:1px solid #59b99d;color:#7ff6bf;font:700 11px ui-monospace,monospace}.file-choice-list strong{display:block;font-size:14px}.file-choice-list small{display:block;color:#aac8ca;font-size:11px}.file-choice-list button>span:last-child{margin-left:auto;color:#7cf4bc}.selected-file{font:11px ui-monospace,monospace;color:#405857;background:#fff5a6;padding:8px 9px;border:1px solid #b8a433}.delivery-result{display:none;background:#eaffdc;color:#214031;border:1px solid #4d9b6e;padding:10px;font:12px/1.5 ui-monospace,monospace}.delivery-result.visible{display:block}.delivery-result a{display:block;color:#075e47;font-weight:800;margin-top:5px}.mission-map .world-stage{isolation:isolate}@media(max-width:650px){.file-picker{width:89%}.file-picker h2{margin-top:14px}.file-picker p{font-size:12px}.file-choice-list button{min-height:50px}}
+.mission-reselect{border:1px solid #a08c16;background:#ffe75c;color:#243b37;padding:7px 9px;font:700 10px ui-monospace,monospace;cursor:pointer}.mission-reselect:hover{background:#fff3a9}
+.world-stage #mission-svg{position:absolute;inset:0;width:100%;height:100%;min-height:0;display:block}.world-stage{background:#dcebed}.mission-map svg[hidden]{display:none}
+
+/* 2026 visual refresh */
+:root{color-scheme:light;--bg:#f5f8fa;--surface:#fff;--surface2:#edf4f6;--line:#d5e1e5;--ink:#142b34;--soft:#516b74;--accent:#007f8b;--cyan:#087da7}
+body{background:var(--bg);color:var(--ink)}
+.header{background:#0c2029f2;border-color:#29424d;color:#f4fcfc}.header-inner{min-height:70px}.logo{display:inline-flex;align-items:center;gap:12px;font-family:Inter,ui-sans-serif,system-ui,sans-serif;letter-spacing:-.025em;font-size:19px;font-weight:750}.logo-mark{display:grid;place-items:center;width:42px;height:42px;border:1px solid #66d4dc;border-radius:11px;background:linear-gradient(145deg,#173e48,#0d222c);color:#e8ffff;font-weight:800;font-size:23px;letter-spacing:-.1em}.logo-mark span{color:#6ce0dc}.logo-wordmark{display:block}.logo small{font:700 10px/1 ui-monospace,monospace;letter-spacing:.17em;color:#88c5cb;margin-top:4px}.nav a{color:#d0e0e4;font-size:12px}.nav .nav-contact{color:#d8fffa;border-color:#5d9c9c}
+.mission-section{background:#eaf2f4;padding:0 0 18px;min-height:calc(100svh - 70px)}.mission-section>.shell{max-width:none;padding-inline:clamp(10px,1.4vw,24px)}.mission-intro{min-height:102px;margin:0;display:flex;align-items:center;padding:12px clamp(6px,1vw,16px);gap:24px}.mission-kicker{font-size:11px;letter-spacing:.12em}.mission-intro h1{font-size:clamp(28px,3vw,44px);line-height:1.05;letter-spacing:-.055em;margin:5px 0 2px}.mission-intro p{font-size:14px;line-height:1.35}.mission-cv{margin-left:auto;border-color:#a6bec3;background:#f8fcfc}.mission-frame{display:flex;flex-direction:column;height:calc(100svh - 190px);min-height:570px;border:0;border-radius:8px;box-shadow:0 13px 45px #29454d29;background:#19313a}.mission-bar{min-height:40px;align-items:center;padding:5px 13px;font-size:11px}.mission-bar button{margin-left:auto;border:1px solid #68b6b6;background:#214550;color:#e5ffff;border-radius:4px;padding:6px 11px;font:700 11px ui-monospace,monospace;letter-spacing:.04em}.mission-bar button:hover{background:#007f8b}.mission-layout{flex:1;min-height:0;grid-template-columns:minmax(0,1fr) 260px;padding:0 8px 8px;gap:8px}.mission-map{min-height:0;border:0}.world-stage{aspect-ratio:auto;min-height:0;flex:1}.mission-map svg{min-height:0}.mission-map-footer{min-height:34px;align-items:center}.mission-console{min-height:0;border:0;outline:0;background:#e8f1f1;color:#173039;border-radius:4px;padding:12px;gap:8px}.console-title{font-size:11px}.console-screen{background:#102f34;border-color:#183d43}.console-sequence li{background:#d5e5e7;border-color:#bbd0d3;color:#2c5159}.console-sequence li b{color:#507880}.console-sequence li.active{background:#107e79}.console-sequence li.complete{background:#c6e9df;color:#12624d}.console-sequence li.complete b{color:#12624d}.selected-file{background:#fff;border-color:#bed2d3;color:#31525a}.console-note{color:#506b71}.console-links{border-color:#bdd0d2}.console-links a{color:#006f77}.mission-reselect{color:#006f77}.file-picker{width:min(370px,90%)}
+.mission-frame:fullscreen{width:100vw;height:100vh;min-height:0;border-radius:0;padding:5px;background:#19313a}.mission-frame:fullscreen .mission-layout{grid-template-columns:minmax(0,1fr) 280px}.mission-frame:fullscreen .world-stage{min-height:0}
+.metrics{background:#eaf2f4;border-color:var(--line)}.metric,.metric:first-child,.metric:nth-child(3){border-color:#ccdce0}.metric strong{color:#15333c}.stat-label{color:#58747c;font-size:12px}.section{background:#f7fafb;border-color:#d6e2e6}.section:nth-of-type(odd){background:#eff5f7}.section-no,.project-index{color:#087c87;font-weight:700;font-size:13px}.section h2,.section h3,.card h3,.panel h3{color:#122f39}.section-summary,.feature p,.card p,.panel p{color:#4d6871}.feature{background:#fff;border-color:#cedfe3;box-shadow:0 14px 40px #29505f12}.feature .project-points{color:#355560}.feature-image{background:#deeaec}.feature-image img,.card img{filter:none}.image-overlay{background:linear-gradient(90deg,#e9f3f322,transparent)}.tag{color:#38646d;border-color:#b8d4d9;background:#f0f7f8;font-size:12px}.filter-label{color:#54717a;font-size:13px}.filter{border-color:#bacfd4;color:#335a63;background:white;font-size:13px}.filter:hover,.filter[aria-pressed=true]{background:#0c7d87;border-color:#0c7d87;color:white}.card,.panel{background:#fff;border-color:#d2e0e4;box-shadow:0 6px 25px #355e6e0b}.card:hover{border-color:#62a7b1;box-shadow:0 14px 30px #315c6b24}.card p,.panel p{font-size:16px;line-height:1.6}.detail{border-color:#d9e6e8;color:#45636b}.detail summary,.skill-item strong,.timeline-item time,.experience time,.research a{color:#007d89}.skill-item{border-color:#d5e3e6}.timeline{border-color:#92b7bd}.contact{background:#e4eff1}.contact p{color:#42616a}.contact-links a{color:#076f7a;border-color:#aacbd0;background:#fff}.contact-links a:hover{background:#d9ecee}.footer{background:#102a34;color:#bad0d4}
+@media(max-width:1050px){.mission-frame{height:auto;min-height:0}.mission-layout{display:block}.world-stage{aspect-ratio:960/510;min-height:0}.mission-console{display:grid;grid-template-columns:1fr 1fr;min-height:0;margin-top:8px}.mission-frame:fullscreen .mission-layout{display:grid;grid-template-columns:minmax(0,1fr) 250px}.mission-frame:fullscreen .mission-console{display:flex}.mission-frame:fullscreen .world-stage{aspect-ratio:auto}}
+@media(max-width:650px){.header-inner{min-height:64px}.logo{font-size:16px}.logo-mark{width:36px;height:36px;font-size:20px}.mission-section{padding:0 0 12px}.mission-intro{min-height:100px;padding:12px 5px}.mission-intro h1{font-size:29px}.mission-intro p{font-size:13px}.mission-cv{display:none}.mission-frame{border-radius:5px}.mission-bar{flex-wrap:nowrap;font-size:9px}.mission-bar span:nth-child(2){display:none}.mission-bar button{font-size:10px}.mission-layout{padding:0 4px 4px}.world-stage{aspect-ratio:960/510;min-height:0}.mission-console{display:flex;gap:9px}.mission-frame:fullscreen .mission-layout{display:flex;flex-direction:column}.mission-frame:fullscreen .world-stage{aspect-ratio:auto;min-height:45vh}.mission-frame:fullscreen .mission-console{max-height:36vh;overflow:auto}.mission-frame:fullscreen .mission-map{flex:1;min-height:0}.file-picker{width:min(360px,95%)}.section{padding-block:60px}}
+
+.document-download{display:inline-flex;align-items:center;justify-content:center;background:#087d89;color:white;text-decoration:none;padding:12px 20px;border-radius:5px;font-weight:700;min-height:48px}.document-download:hover{background:#075761}.document-panel p{max-width:550px}.research-note{color:var(--soft);margin:24px 0 0;font-size:16px}.skill-item p{font-size:16px}.console-screen strong{font-size:18px;overflow-wrap:normal;letter-spacing:0}.console-sequence li{font-size:12px}.console-note{font-size:12px}.console-links a{font-size:12px}.console-buttons button{font-size:12px}.file-picker p{font-size:16px}.file-choice-list small{font-size:12px}.file-picker h2{margin-top:14px}.file-choice-list button{min-height:54px}.file-picker{width:min(390px,95%)}.mission-intro p{font-size:16px}.mission-console{overflow-y:auto}.card img[src$="airport-tug.png"]{object-fit:contain;background:#eef1f5}.card img[src$="reinforcement-learning.png"]{object-position:top}.nav{gap:18px}section[tabindex="-1"]:focus{outline:none}
+.portfolio-intro{padding:72px 0 64px;background:#eaf2f4;border-bottom:1px solid #cbdde1}.portfolio-intro h1{font-size:clamp(2.7rem,6vw,5.6rem);line-height:1.05;letter-spacing:-.055em;max-width:1000px;margin:16px 0 24px;color:#142f39}.intro-label{font:700 13px/1.6 ui-monospace,monospace;letter-spacing:.09em;color:#087d89}.intro-copy{font-size:clamp(17px,2vw,21px);line-height:1.6;max-width:780px;color:#45636d}.intro-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}.intro-actions a{padding:12px 18px;text-decoration:none;border:1px solid #9dbfc6;border-radius:5px;font-weight:700;background:white;color:#076e79}.intro-actions a:first-child{background:#087d89;color:white;border-color:#087d89}.intro-actions a:hover{background:#d4e9ed;color:#133f49}@media(max-width:650px){.portfolio-intro{padding:44px 0}.intro-actions{gap:10px}.intro-actions a{font-size:14px}}
+</style>
 </head>
-<body>
-  <header class="site-header" id="top">
-    <nav class="navbar">
-      <a class="brand" href="#top">&lt;Sahil / Robotics&gt;</a>
-      <button class="menu-toggle" aria-label="Open navigation" onclick="document.body.classList.toggle('nav-open')">☰</button>
-      <div class="nav-links">
-        <a href="#about">About</a>
-        <a href="#education">Education</a>
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact">Contact</a>
-      </div>
-    </nav>
-
-    <section class="hero">
-      <div class="hero-copy">
-        <p class="eyebrow">UNSW Robotics Master’s Student</p>
-        <h1>Sahil Ahamed Shaik</h1>
-        <p class="hero-subtitle">Robotics, autonomous systems, ROS 2, navigation, manipulation and AI-powered robot design.</p>
-        <div class="hero-actions">
-          <a class="btn primary" href="docs/Sahil_Ahamed_Shaik_CV.pdf" target="_blank">Download CV</a>
-          <a class="btn secondary" href="docs/Sahil_Shaik_Portfolio.pdf" target="_blank">View Portfolio PDF</a>
-        </div>
-        <div class="stats-row">
-          <div><strong>5+</strong><span>Robotics Projects</span></div>
-          <div><strong>2</strong><span>Internships</span></div>
-          <div><strong>3</strong><span>Conferences</span></div>
-          <div><strong>1</strong><span>AIP Publication</span></div>
-        </div>
-      </div>
-      <div class="hero-image-card">
-        <img src="assets/profile.jpg" alt="Portrait of Sahil Ahamed Shaik" />
-      </div>
-    </section>
-  </header>
-
-  <main>
-    <section class="section" id="about">
-      <div class="section-heading">
-        <p class="eyebrow">About</p>
-        <h2>Robotics engineer focused on real-world autonomous systems.</h2>
-      </div>
-      <div class="about-grid">
-        <p>
-          I am a robotics engineering student currently working on ROS 2 integration and control of the Omron MoMa mobile manipulator. My work focuses on converting robot data into ROS-compatible interfaces, sensor integration, SLAM, navigation and manipulation workflows.
-        </p>
-        <p>
-          I have hands-on experience across ROS 1/2, Nav2, SLAM Toolbox, TF2, RViz, ARCL, Webots, V-REP, SolidWorks, ANSYS, Python, C++ and TensorFlow-based AI models.
-        </p>
-      </div>
-    </section>
-
-    <section class="section education" id="education">
-      <div class="section-heading">
-        <p class="eyebrow">Education</p>
-        <h2>Academic background</h2>
-      </div>
-      <div class="timeline-grid">
-        <article class="timeline-card current">
-          <span class="tag">Current</span>
-          <h3>Master of Engineering Science — Robotics</h3>
-          <p class="institution">University of New South Wales, Sydney, Australia</p>
-          <p class="date">2024 – 2026</p>
-          <p>Focus areas: robotics, autonomous systems, ROS, navigation and manipulation.</p>
-        </article>
-        <article class="timeline-card">
-          <span class="tag">Undergraduate</span>
-          <h3>Bachelor of Technology — Mechatronics Engineering</h3>
-          <p class="institution">Hindustan Institute of Technology and Science, Chennai, India</p>
-          <p class="date">2020 – 2024</p>
-          <p>Foundation in mechanical design, electronics, control systems, CAD and robotics.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="section" id="projects">
-      <div class="section-heading split-heading">
-        <div>
-          <p class="eyebrow">Selected Projects</p>
-          <h2>Robotics, navigation, design and AI projects</h2>
-        </div>
-        <a href="https://docs.google.com/presentation/d/1-uay_9a0kqFTyRCZIJ2tLZACV6t56N2V/export/pptx" target="_blank">
-  Download Portfolio PPT
-</a>   
-      </div>
-
-      <div class="featured-project">
-        <div class="featured-media">
-          <img src="assets/moma-placeholder.jpeg" alt="Omron MoMa mobile manipulator placeholder" />
-        </div>
-        <div class="featured-content">
-          <p class="eyebrow">Current research project</p>
-          <h3>ROS 2 Integration and Control of Omron MoMa Mobile Manipulator</h3>
-          <p>Integrating the Omron LD-250 mobile base and TM12-S arm with ROS 2 for autonomous navigation and manipulation.</p>
-          <ul>
-            <li>Developed ARCL-based communication to publish odometry, laser scan and point cloud data.</li>
-            <li>Configuring SLAM, Nav2, TF frames, costmaps and localization for real-world navigation.</li>
-            <li>Working toward TMflow-based arm and gripper control for mobile manipulation tasks.</li>
-          </ul>
-          <div class="chips">
-            <span>ROS 2</span><span>ARCL</span><span>Nav2</span><span>SLAM Toolbox</span><span>TF2</span><span>RViz</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="project-grid">
-        <article class="project-card">
-          <img src="assets/ugv-gazebo.jpg" alt="UGV path planning simulation in Gazebo and RViz" />
-          <div>
-            <p class="project-number">Project 01</p>
-            <h3>UGV Autonomous Path Planning</h3>
-            <p>Move Base with DWA, custom A* path planning, SLAM-based mapping, obstacle detection and Gazebo/RViz validation.</p>
-            <div class="chips"><span>ROS</span><span>Gazebo</span><span>RViz</span><span>A*</span><span>SLAM</span></div>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <img src="assets/knee-cad.jpg" alt="Knee rehabilitation robot CAD model" />
-          <div>
-            <p class="project-number">Project 02</p>
-            <h3>Knee Rehabilitation Robot</h3>
-            <p>AI-augmented physiotherapy robot with 2-DOF arc motion, CAD design, FEA validation and CNN-based knee condition detection.</p>
-            <div class="chips"><span>SolidWorks</span><span>ANSYS</span><span>TensorFlow</span><span>CNN</span></div>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <img src="assets/borewell-cad.jpg" alt="Borewell rescue robot CAD design" />
-          <div>
-            <p class="project-number">Project 03</p>
-            <h3>Borewell Rescue Robot</h3>
-            <p>Soft-gripper rescue mechanism designed for safe extraction, rapid deployment and affordability using CAD and embedded systems.</p>
-            <div class="chips"><span>SolidWorks</span><span>Arduino</span><span>Sensors</span><span>Rescue Robotics</span></div>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <img src="assets/swarm-webots.png" alt="Swarm robot simulation in Webots" />
-          <div>
-            <p class="project-number">Project 04</p>
-            <h3>Homogeneous Swarm Robotics</h3>
-            <p>Leader-follower TurtleBot3 simulation in Webots with inter-robot communication through a centralized network.</p>
-            <div class="chips"><span>Webots</span><span>Python</span><span>MATLAB</span><span>Swarm Robotics</span></div>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <img src="assets/sanitization-robot.jpg" alt="Autonomous sanitization robot prototype" />
-          <div>
-            <p class="project-number">Project 05</p>
-            <h3>Autonomous Sanitizing Robot</h3>
-            <p>COVID-era prototype using ultrasonic obstacle avoidance, IR-triggered spraying and Tinkercad circuit validation.</p>
-            <div class="chips"><span>Arduino</span><span>Tinkercad</span><span>IR Sensor</span><span>Ultrasonic</span></div>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <img src="assets/robot-arm-vrep.png" alt="Robotic arm simulation in V-REP" />
-          <div>
-            <p class="project-number">Additional</p>
-            <h3>Robotic Arm Simulation</h3>
-            <p>Forward kinematics simulation in V-REP/CoppeliaSim and MoveIt-based manipulator motion planning experiments.</p>
-            <div class="chips"><span>V-REP</span><span>MoveIt</span><span>Kinematics</span></div>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="section skills-section" id="skills">
-      <div class="section-heading">
-        <p class="eyebrow">Technical Profile</p>
-        <h2>Skills and tools</h2>
-      </div>
-      <div class="skills-grid">
-        <div class="skill-card">
-          <h3>Robotics Software</h3>
-          <p>ROS 1/2, Nav2, SLAM Toolbox, TF2, RViz, URDF, ARCL, Webots, V-REP</p>
-        </div>
-        <div class="skill-card">
-          <h3>Programming</h3>
-          <p>C/C++, Python, MATLAB, Embedded C, Linux, Git/GitHub, VS Code</p>
-        </div>
-        <div class="skill-card">
-          <h3>AI & Vision</h3>
-          <p>TensorFlow, CNN, ANN, Deep Learning, OpenCV, OCR and image processing</p>
-        </div>
-        <div class="skill-card">
-          <h3>Design & Simulation</h3>
-          <p>SolidWorks, ANSYS, Fusion 360, Simulink, Gazebo and Unity AR/VR</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section experience-section">
-      <div class="section-heading">
-        <p class="eyebrow">Experience</p>
-        <h2>Internship experience</h2>
-      </div>
-      <div class="experience-grid">
-        <article>
-          <p class="date">Dec 2023 – May 2024</p>
-          <h3>ROS Intern — Edgeforce Solutions</h3>
-          <p>Worked on UGV systems, airport tugs and defense-related robotics. Developed URDF sensor integration, path-planning algorithms, CAD components and ROS-based system integration.</p>
-        </article>
-        <article>
-          <p class="date">Jun 2022 – Jul 2022</p>
-          <h3>Robotics Intern — Abhyaz Robotics</h3>
-          <p>Built foundations in ROS, CAD, AI/ML and embedded systems through TurtleBot teleoperation, Linux commands, AutoCAD and Tinkercad-based projects.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="section recognition-section">
-      <div class="recognition-card">
-        <div>
-          <p class="eyebrow">Research & Recognition</p>
-          <h2>Publication, presentations and achievements</h2>
-          <p>Published a paper in AIP Conference Proceedings and presented work at RIACT 2022, RANE 2023 and AIIMS-3.0. Also completed training in SMC pneumatics, TensorFlow, ROS, AI/ML/Python and MATLAB Simulink Onramp.</p>
-        </div>
-        <div class="award-list">
-          <span>AIP Conference Proceedings</span>
-          <span>RIACT 2022</span>
-          <span>RANE 2023</span>
-          <span>AIIMS-3.0</span>
-        </div>
-      </div>
-    </section>
-
-    <section class="section contact-section" id="contact">
-      <p class="eyebrow">Contact</p>
-      <h2>Let’s connect</h2>
-      <p>Open to robotics internships, research collaborations and autonomous systems projects.</p>
-      <div class="contact-links">
-        <a href="mailto:sahil86469@gmail.com">sahil86469@gmail.com</a>
-        <a href="https://github.com/sahil86469" target="_blank">github.com/sahil86469</a>
-        <a href="https://www.linkedin.com/in/sahil-shaik-8bb309219" target="_blank">LinkedIn Profile</a>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <p>© <span id="year"></span> Sahil Ahamed Shaik. Built for GitHub Pages.</p>
-  </footer>
-
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
-</body>
-</html>
+<body id="top">
+<header class="header"><div class="shell header-inner"><a class="logo" href="#top"><span aria-hidden="true" class="logo-mark">S<span>·</span></span><span class="logo-wordmark">Sahil Shaik<small>ROBOTICS &amp; AI ENGINEER</small></span></a><button aria-controls="nav" aria-expanded="false" class="menu-toggle">MENU</button><nav aria-label="Main navigation" class="nav" id="nav"><a href="#profile">About &amp; skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#research">Research</a><a href="#documents">Downloads</a><a class="nav-contact" href="#contact">Contact ↗</a></nav></div></header>
+<main>
+<section class="portfolio-intro"><div class="shell"><p class="intro-label">SAHIL AHAMED SHAIK / SYDNEY, AUSTRALIA</p><h1>Robotics &amp; AI Engineer</h1><p class="intro-copy">UNSW robotics graduate working across autonomous navigation, mobile manipulation and perception. Explore my projects, experience and research below.</p><div class="intro-actions"><a href="#projects">Explore projects</a><a href="documents/Sahil_Shaik_CV.pdf" target="_blank" rel="noopener noreferrer">View CV</a><a href="#documents">CV &amp; portfolio downloads</a></div></div></section>
+<div class="metrics"><div class="shell metric-grid"><div class="metric"><strong>ROS 2</strong><span class="stat-label">System integration</span></div><div class="metric"><strong>LD-250 + TM12-S</strong><span class="stat-label">Mobile manipulator</span></div><div class="metric"><strong>2 publications</strong><span class="stat-label">Assistive robotics</span></div><div class="metric"><strong>2026</strong><span class="stat-label">UNSW master's completed</span></div></div></div>
+<section class="section" id="projects" tabindex="-1"><div class="shell"><div class="section-heading reveal"><div><div class="section-no">01 / SELECTED PROJECTS</div><h2>From sensors<br/>to motion.</h2></div><p class="section-summary">Mobile manipulation, autonomous navigation, assistive mechanisms and learning experiments, supported by simulation and prototype work.</p></div><article class="feature reveal"><div class="feature-copy"><div class="project-index">MASTER'S THESIS / UNSW</div><h3>Omron MoMa<br/>autonomous mobile manipulation</h3><p>A ROS 2 framework connecting an LD-250 mobile base and TM12-S collaborative arm for a WARA Robotics Challenge manipulation task.</p><ul class="project-points"><li>Built ARCL interfaces for odometry, laser scans, point clouds and robot state.</li><li>Integrated Nav2, SLAM Toolbox, AMCL and TF2 for mapping and navigation.</li><li>Used RealSense depth and ArUco markers to estimate target poses for MoveIt 2.</li><li>Demonstrated the perceive, grasp and navigate sequence in Gazebo; validated arm and gripper control on physical hardware.</li></ul><div class="tags"><span class="tag">ROS 2</span><span class="tag">Nav2</span><span class="tag">MoveIt 2</span><span class="tag">RealSense</span><span class="tag">ARCL</span></div></div><div class="feature-image"><img alt="Omron MoMa project image" src="assets/moma-placeholder.jpeg"/><div aria-hidden="true" class="image-overlay"></div><div class="image-caption">MOBILE BASE / ARM / CART</div></div></article><div aria-label="Filter projects" class="filter-row" role="group"><span class="filter-label">FILTER /</span><button aria-pressed="true" class="filter" data-filter="all">All</button><button aria-pressed="false" class="filter" data-filter="autonomy">Autonomy</button><button aria-pressed="false" class="filter" data-filter="design">Design</button><button aria-pressed="false" class="filter" data-filter="simulation">Simulation</button><button aria-pressed="false" class="filter" data-filter="ai">AI &amp; learning</button></div><div class="projects" id="project-grid"><article class="card reveal" data-category="autonomy simulation"><img alt="UGV in Gazebo simulation" loading="lazy" src="assets/ugv-gazebo.jpg"/><div class="card-body"><div class="project-index">01 / AUTONOMY</div><h3>UGV navigation &amp; path planning</h3><p>Developed ROS navigation workflows using Move Base, DWA, waypoint following, costmaps and custom A* planning.</p><div class="tags"><span class="tag">ROS</span><span class="tag">A*</span><span class="tag">SLAM</span></div><details class="detail"><summary>Engineering notes</summary><p>Integrated camera and 3D sensing for obstacle perception. Tested the planning workflows in Gazebo and RViz before adapting them to the UGV.</p></details></div></article><article class="card reveal" data-category="design ai"><img alt="CAD model of knee rehabilitation mechanism" loading="lazy" src="assets/knee-cad.jpg"/><div class="card-body"><div class="project-index">02 / ASSISTIVE ROBOTICS</div><h3>Knee rehabilitation robot &amp; CNN</h3><p>Designed six mechanisms and prototyped two for portable knee rehabilitation with controlled motion.</p><div class="tags"><span class="tag">SolidWorks</span><span class="tag">ANSYS</span><span class="tag">TensorFlow</span></div><details class="detail"><summary>Engineering notes</summary><p>Evaluated the mechanisms with CAD and comparative analysis. Built a TensorFlow/Keras classification proof of concept; dataset size and image quality limited clinical accuracy.</p></details></div></article><article class="card reveal" data-category="simulation autonomy"><img alt="TurtleBot swarm in Webots" loading="lazy" src="assets/swarm-webots.png"/><div class="card-body"><div class="project-index">03 / MULTI-ROBOT</div><h3>Cooperative TurtleBot3 swarm</h3><p>Built a leader-follower system in Webots with Python communication and central coordination.</p><div class="tags"><span class="tag">Webots</span><span class="tag">Python</span><span class="tag">MATLAB</span></div><details class="detail"><summary>Engineering notes</summary><p>Explored how robots exchange motion information through a world node. Obstacle avoidance and interrupt control remained areas for improvement.</p></details></div></article><article class="card reveal" data-category="design"><div class="card-body"><div class="project-index">04 / RESCUE ROBOTICS</div><h3>Borewell rescue robot</h3><p>Developed a rescue prototype with soft gripping, sensing, remote operation and Arduino control.</p><div class="tags"><span class="tag">CAD</span><span class="tag">Arduino</span><span class="tag">Sensors</span></div><details class="detail"><summary>Engineering notes</summary><p>Approximately 80% of the mechanical components were 3D printed. Used SolidWorks and ANSYS to design and validate the mechanism.</p></details></div></article><article class="card reveal" data-category="autonomy design"><div class="card-body"><div class="project-index">05 / EMBEDDED</div><h3>Autonomous sanitizing robot</h3><p>Designed an Arduino prototype using ultrasonic obstacle avoidance and IR-triggered spraying.</p><div class="tags"><span class="tag">Arduino</span><span class="tag">IR</span><span class="tag">Ultrasonic</span></div><details class="detail"><summary>Engineering notes</summary><p>Modelled the chassis to support a water tank and tested the embedded control workflow in Tinkercad.</p></details></div></article><article class="card reveal" data-category="simulation"><div class="card-body"><div class="project-index">06 / MANIPULATION</div><h3>Manipulator kinematics &amp; planning</h3><p>Explored forward kinematics in CoppeliaSim and arm motion planning with MoveIt.</p><div class="tags"><span class="tag">MoveIt</span><span class="tag">CoppeliaSim</span></div><details class="detail"><summary>Engineering notes</summary><p>Simulation experiments connected joint motion, end-effector position and manipulator planning.</p></details></div></article><article class="card reveal" data-category="design autonomy"><img alt="Airport tug design from Sahil’s portfolio" loading="lazy" src="assets/airport-tug.png"/><div class="card-body"><div class="project-index">07 / MECHANICAL DESIGN</div><h3>Airport tug design</h3><p>Developed airport tug concepts alongside ROS 2 integration and sensor simulation work at Edgeforce.</p><div class="tags"><span class="tag">CAD</span><span class="tag">ROS 2</span><span class="tag">Gazebo</span></div><details class="detail"><summary>Engineering notes</summary><p>Worked on CAD concepts, camera integration in RViz/Gazebo and exposure to PlanSys2 task planning.</p></details></div></article><article class="card reveal" data-category="simulation ai"><img alt="Q-learning in CliffWalking from Sahil’s portfolio" loading="lazy" src="assets/reinforcement-learning.png"/><div class="card-body"><div class="project-index">08 / REINFORCEMENT LEARNING</div><h3>Q-learning in CliffWalking</h3><p>Explored tabular Q-learning in a Gym CliffWalking environment using Python.</p><div class="tags"><span class="tag">Python</span><span class="tag">Q-learning</span><span class="tag">Gym</span></div><details class="detail"><summary>Engineering notes</summary><p>Implemented a Q-learning agent as a learning experiment in state-action values and reward-driven policy improvement.</p></details></div></article></div></div></section>
+<section class="section" id="profile" tabindex="-1"><div class="shell"><div class="section-heading reveal"><div><div class="section-no">02 / ABOUT &amp; SKILLS</div><h2>Robotics &amp; AI<br/>engineer.</h2></div><p class="section-summary">UNSW robotics graduate based in Sydney. I develop robotics software across perception, navigation, manipulation and simulation, using Python and C++.</p></div><div class="panel-grid"><div class="panel reveal"><h3>Education &amp; recognition</h3><div class="timeline"><div class="timeline-item"><time>2024–2026 / UNSW SYDNEY</time><h4>Master of Engineering Science, Robotics</h4><p>International Scientia Coursework Scholarship recipient. Thesis on autonomous navigation and manipulation through ROS 2 integration.</p></div><div class="timeline-item"><time>2020–2024 / HITS, CHENNAI</time><h4>B.Tech in Mechatronics Engineering</h4><p>Ranked second in class. Research on knee rehabilitation mechanisms contributed to two peer-reviewed publications.</p></div></div><p>First place in paper presentations at universities including IIT Madras, VIT and MIT Chennai.</p></div><div class="panel reveal"><h3>Technical skills</h3><div class="skill-list"><div class="skill-item"><strong>Robotics software</strong><p>ROS 1/2, Nav2, SLAM Toolbox, AMCL, TF2, RViz, URDF/Xacro, MoveIt 2, ARCL</p></div><div class="skill-item"><strong>Perception</strong><p>OpenCV, RGB-D sensing, ArUco detection, 3D localisation, pose estimation</p></div><div class="skill-item"><strong>AI &amp; learning</strong><p>PyTorch, TensorFlow, deep learning, reinforcement learning</p></div><div class="skill-item"><strong>Simulation</strong><p>Gazebo, Webots, CoppeliaSim; exposure to NVIDIA Isaac Sim and Isaac Lab</p></div><div class="skill-item"><strong>Development</strong><p>Python, C++, C, MATLAB, Linux, Git, CMake</p></div><div class="skill-item"><strong>Hardware &amp; design</strong><p>LiDAR, RealSense, Jetson, Arduino, SolidWorks, ANSYS, AutoCAD, Simulink, TMflow</p></div></div></div></div></div></section>
+<section class="section" id="experience" tabindex="-1"><div class="shell"><div class="section-heading reveal"><div><div class="section-no">03 / EXPERIENCE</div><h2>Applied work.</h2></div></div><div class="experience"><article class="panel reveal"><time>SEP 2025–JUN 2026 / UNSW</time><h3>Master's thesis researcher</h3><p>Developed the Omron MoMa ROS 2 framework, connecting proprietary base data with navigation, target perception and manipulator control.</p><p>Coordinated MoveIt 2, TMflow and gripper operation across simulation and hardware validation.</p></article><article class="panel reveal"><time>DEC 2023–MAY 2024</time><h3>ROS intern, Edgeforce Solutions</h3><p>Worked on UGV navigation and airport tug concepts, using ROS 1/2, URDF models, sensor integration, DWA and custom A* planning.</p><p>Designed UGV and condition-based monitoring components in CAD.</p></article><article class="panel reveal"><time>JUN–JUL 2022</time><h3>Robotics intern, Abhyaz</h3><p>Worked with ROS, Python and Linux on TurtleBot teleoperation and robotics prototypes.</p><p>Developed CAD and embedded prototypes with AutoCAD, Tinkercad and Arduino.</p></article></div></div></section>
+<section class="section" id="research" tabindex="-1"><div class="shell"><div class="section-heading reveal"><div><div class="section-no">04 / RESEARCH</div><h2>Ideas tested<br/>and shared.</h2></div></div><div class="research"><article class="panel reveal"><div class="project-index">JOURNAL / DECEMBER 2024</div><h3>Design and Development of Knee Rehabilitation Robot</h3><p>IAES International Journal of Robotics and Automation, volume 13, issue 4, pages 423–431.</p><a href="https://doi.org/10.11591/ijra.v13i4.pp423-431" rel="noopener noreferrer" target="_blank">DOI: 10.11591/ijra.v13i4.pp423-431</a></article><article class="panel reveal"><div class="project-index">CONFERENCE PAPER / 2023</div><h3>Design and Evaluation of Various Knee Assistive Mechanisms for Rehabilitation</h3><p>AIP Conference Proceedings, volume 2946, 020003.</p><a href="https://doi.org/10.1063/5.0179010" rel="noopener noreferrer" target="_blank">DOI: 10.1063/5.0179010</a></article></div><p class="research-note">Research presented at RIACT 2022, RANE 2023 and AIIMS-3.0. A patent application for the knee rehabilitation design is in progress.</p></div></section>
+<section class="section" id="documents" tabindex="-1"><div class="shell"><div class="section-heading reveal"><div><div class="section-no">05 / DOCUMENTS</div><h2>CV &amp; portfolio.</h2></div><p class="section-summary">Download my professional CV and the project presentation with CAD, simulation and prototype images.</p></div><div class="panel-grid"><article class="panel document-panel reveal"><div class="project-index">PDF / 2 PAGES</div><h3>Professional CV</h3><p>Robotics and AI experience, technical skills, education, publications and awards.</p><a class="document-download" download="" href="documents/Sahil_Shaik_CV.pdf">Download CV</a></article><article class="panel document-panel reveal"><div class="project-index">POWERPOINT / 28 SLIDES</div><h3>Project portfolio</h3><p>Detailed project presentation covering UGV planning, assistive robotics, CAD and simulation experiments.</p><a class="document-download" download="" href="documents/Sahil_Shaik_Portfolio.pptx">Download portfolio</a></article></div></div></section><section class="section contact" id="contact" tabindex="-1"><div class="shell contact-layout"><div class="reveal"><div class="section-no">06 / CONTACT</div><h2>Let’s build<br/>useful robots.</h2><p>Based in Sydney, Australia. Open to robotics and AI engineering roles, with interests in autonomous systems, perception and learning for robots.</p></div><div class="contact-links reveal"><a href="mailto:sahil86469@gmail.com"><span>Email</span><span>↗</span></a><a href="https://github.com/sahil86469" rel="noopener noreferrer" target="_blank"><span>GitHub</span><span>↗</span></a><a href="https://www.linkedin.com/in/sahil-shaik-8bb309219" rel="noopener noreferrer" target="_blank"><span>LinkedIn</span><span>↗</span></a></div></div></section>
+</main><footer class="footer"><div class="shell"><span>© <span id="year">2026</span> SAHIL AHAMED SHAIK</span><span>ROBOTS / PERCEPTION / AUTONOMY</span></div></footer>
+<script>
+const menu=document.querySelector('.menu-toggle'),nav=document.querySelector('.nav');menu.addEventListener('click',()=>{let open=nav.classList.toggle('open');menu.setAttribute('aria-expanded',String(open))});nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');menu.setAttribute('aria-expanded','false')}));document.querySelectorAll('.filter').forEach(button=>button.addEventListener('click',()=>{let filter=button.dataset.filter;document.querySelectorAll('.filter').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));document.querySelectorAll('.card').forEach(card=>{card.hidden=filter!=='all'&&!card.dataset.category.split(' ').includes(filter)})}));document.getElementById('year').textContent=new Date().getFullYear();if('IntersectionObserver'in window&&!matchMedia('(prefers-reduced-motion: reduce)').matches){let observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target)}}),{threshold:.08});document.querySelectorAll('.reveal').forEach(el=>observer.observe(el))}else document.querySelectorAll('.reveal').forEach(el=>el.classList.add('visible'));
+</script>
+</body></html>
