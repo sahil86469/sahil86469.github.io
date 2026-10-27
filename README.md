@@ -1,25 +1,28 @@
-# Sahil Ahamed Shaik - Portfolio Website
+# Sahil Ahamed Shaik — Robotics Portfolio
 
-This is a static portfolio website ready for GitHub Pages.
+A standalone static portfolio for GitHub Pages. No build step or package installation is needed.
 
-## How to use
+## Update your existing GitHub Pages site
 
-1. Create a GitHub repository named: `sahil86469.github.io`
-2. Upload all files from this folder.
-3. Make sure `index.html` is in the root of the repository.
-4. Go to repository **Settings → Pages**.
-5. Select **Deploy from branch → main → /root**.
-6. Your website will open at: `https://sahil86469.github.io`
+1. Extract this ZIP on your computer.
+2. Open your existing `sahil86469.github.io` repository on GitHub.
+3. Upload the contents of this folder into the repository root: `index.html`, `styles.css`, `app.js`, `project-evidence.js`, `assets/`, `documents/`, and `.nojekyll`.
+4. Commit the changes. Your existing GitHub Pages setup can then serve the updated files.
 
-## Replace images later
+Keep `index.html` at the repository root, rather than inside an extra enclosing folder. Upload the extracted files, not the ZIP itself.
 
-Replace files inside `assets/` with your own project images. Keep the same file names, or update the image paths inside `index.html`.
+If Pages is not already configured, choose the `main` branch and `/ (root)` folder in the repository's Pages settings.
 
-Main replaceable image files:
-- `assets/moma-placeholder.svg`
-- `assets/ugv-gazebo.jpg`
-- `assets/knee-cad.jpg`
-- `assets/borewell-cad.jpg`
-- `assets/swarm-webots.png`
-- `assets/sanitization-robot.jpg`
-up
+## Local preview
+
+Run `python -m http.server 8000` in this directory and open `http://localhost:8000`.
+
+## Included
+
+- Nine filterable project case studies with keyboard-accessible tabs
+- Selectable system architecture layers and direct project links
+- CAD and prototype image galleries
+- Two MP4 demonstration recordings
+- Professional CV and supporting project portfolio PDF
+
+The Sites sign-in gate is not part of this static export. A GitHub Pages deployment uses GitHub's access settings. Publishing these files to your existing Pages repository updates that public website.
